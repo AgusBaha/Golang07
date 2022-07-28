@@ -1,3 +1,71 @@
-h1{
-    color: brown;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Jumbotron*/
+.top-section {
+    height: 400px;
+    font-family: sans-serif;
+    background-color: #007d9c;
+}
+
+.maskot {
+    float: right;
+    padding-top: 50px;
+    padding-right: 77px;
+}
+
+.jumbotron {
+    float: left;
+    padding: 30px 80px;
+    color: #fff;
+}
+
+.jumbotron p a {
+    color: #fff;
+}
+.jumbotron p {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.jumbotron-text {
+    width: 750px;
+}
+
+.jumbotron h1 {
+    font-weight: lighter;
+    font-size: 34px;
+}
+
+.jumbotron-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.jumbotron-list span {
+    padding-right: 5px;
+}
+
+.jumbotron-list li {
+    line-height: 30px;
+}
+
+.btn {
+    padding: 24px 64px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.started {
+    background-color: yellow;
+    color: #000;
+}
+
+.download {
+    margin-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
 }
