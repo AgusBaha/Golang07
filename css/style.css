@@ -1,3 +1,56 @@
-h1{
-    color: brown;
+
+li {
+    list-style: none;
+  }
+  
+.footer {
+    
+    background-color: #243443;
+    color: #fff;
+    height: 277px;
+    padding: 40px 40px;
+    
+    
+  }
+ 
+  .footer-logo{
+    font-size: 40px;
+    float: left;
+    font-family: Raleway;
+    
+  }
+  
+  .footer-list{
+    float: right;
+    color:white;
+  }
+  .footer-center{
+    float: none;
+    margin-left: 60%;
+  }
+  .footer-list li{
+    padding-bottom: 20px;
+    font-family: Raleway;
+    color:white;
+  }
+  
+  .footer-center li{
+    padding-bottom:20px;
+    font-family: Raleway;
+  }
+  .footer-land{
+    font-size: 50px;
+    float: left;
+  }
+  .footer-land-right{
+    font-size: 10px;
+    float: right;
+    color:white;
+  }
+    .footer a:link { text-decoration: none; }
+    .footer a:visited { text-decoration: none; }
+    .footer a:hover { text-decoration: none; }
+    .footer a:active { text-decoration: none; }
+    .footer a{
+        color:white;
 }
