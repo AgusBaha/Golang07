@@ -1,0 +1,43 @@
+/* Tablet */
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    /* reason responsive */
+    .withgo {
+        margin: 0;
+    }
+
+    .gridContainer {
+        display: block;
+    }
+    /* End reason responsive */
+}
+
+/* Phone */
+@media only screen and (max-width: 320px) {
+    /* reason responsive */
+    .withgo {
+        margin: 0;
+    }
+
+    .WhyGo-header .WhyGo-headerH2 {
+        font-size: 24px;
+        margin: 0 0 16px;
+    }
+
+    .WhyGo-header .WhyGo-headerH4 {
+        font-size: 12px;
+        margin: 0 0 16px;
+    }
+
+    .gridContainer {
+        display: block;
+    }
+
+    .column-grid {
+        padding: 8px 16px;
+    }
+
+    .reasonLinkMore a:hover {
+        padding: 4px;
+    }
+    /* End reason responsive */
+}
