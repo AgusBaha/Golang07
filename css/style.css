@@ -61,14 +61,26 @@ body{
 }
 
 .started {
-    background-color: yellow;
-    color: #000;
+  background-color: yellow;
+  border: 1px solid yellow;
+  color: #000;
+  transition: background-color 0.5s ease, color 0.1s;
+}
+.started:hover {
+  color: yellow;
+  background-color: transparent;  
 }
 
 .download {
-    margin-left: 10px;
-    color: #fff;
-    border: 1px solid #fff;
+  margin-left: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+transition: background-color 0.5s ease, color 0.1s;
+}
+
+.download:hover {
+  background-color: #fff;
+  color: #007d9c;
 }
 
 li {
