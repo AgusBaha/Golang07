@@ -9,6 +9,38 @@
         display: block;
     }
     /* End reason responsive */
+
+    /* Start Jumbotron Responsive */
+
+    .jumbotron {
+        padding: 10px 30px;
+    }
+
+    .maskot {
+        min-width: 100%;
+        width: 200px;
+    }
+
+    .jumbotron-img {
+        grid-row: 1/2;
+    }
+
+    .jumbotron-text h1 {
+        font-size: 26px;
+    }
+
+    .jumbotron-text ul {
+        font-size: 12px;
+    }
+
+    .jumbotron-links {
+        grid-column: 1/3;
+    }
+
+    .btn {
+        padding: 12px 32px;
+    }
+    /* End Jumbotron Responsive */
 }
 
 /* Phone */
@@ -40,4 +72,30 @@
         padding: 4px;
     }
     /* End reason responsive */
+
+    /* Start Jumbotron Responsive */
+    .maskot {
+        display: none;
+    }
+    
+    .jumbotron {
+        padding: 10px 30px;
+    }
+
+    .jumbotron-img {
+        grid-row: 1/2;
+    }
+
+    .jumbotron-text h1 {
+        font-size: 26px;
+    }
+
+    .jumbotron-text ul {
+        font-size: 12px;
+    }    
+
+    .btn {
+        padding: 12px;
+    }
+    /* End Jumbotron Responsive */
 }
