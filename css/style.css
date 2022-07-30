@@ -54,8 +54,3 @@ header {
 .header-right > li > a:hover::after{
    width: 100%;
 }
-
-body{
-   margin: 0;
-   padding: 0;
-}
