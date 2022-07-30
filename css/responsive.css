@@ -1,0 +1,101 @@
+/* Tablet */
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    /* reason responsive */
+    .withgo {
+        margin: 0;
+    }
+
+    .gridContainer {
+        display: block;
+    }
+    /* End reason responsive */
+
+    /* Start Jumbotron Responsive */
+
+    .jumbotron {
+        padding: 10px 30px;
+    }
+
+    .maskot {
+        min-width: 100%;
+        width: 200px;
+    }
+
+    .jumbotron-img {
+        grid-row: 1/2;
+    }
+
+    .jumbotron-text h1 {
+        font-size: 26px;
+    }
+
+    .jumbotron-text ul {
+        font-size: 12px;
+    }
+
+    .jumbotron-links {
+        grid-column: 1/3;
+    }
+
+    .btn {
+        padding: 12px 32px;
+    }
+    /* End Jumbotron Responsive */
+}
+
+/* Phone */
+@media only screen and (max-width: 320px) {
+    /* reason responsive */
+    .withgo {
+        margin: 0;
+    }
+
+    .WhyGo-header .WhyGo-headerH2 {
+        font-size: 24px;
+        margin: 0 0 16px;
+    }
+
+    .WhyGo-header .WhyGo-headerH4 {
+        font-size: 12px;
+        margin: 0 0 16px;
+    }
+
+    .gridContainer {
+        display: block;
+    }
+
+    .column-grid {
+        padding: 8px 16px;
+    }
+
+    .reasonLinkMore a:hover {
+        padding: 4px;
+    }
+    /* End reason responsive */
+
+    /* Start Jumbotron Responsive */
+    .maskot {
+        display: none;
+    }
+    
+    .jumbotron {
+        padding: 10px 30px;
+    }
+
+    .jumbotron-img {
+        grid-row: 1/2;
+    }
+
+    .jumbotron-text h1 {
+        font-size: 26px;
+    }
+
+    .jumbotron-text ul {
+        font-size: 12px;
+    }    
+
+    .btn {
+        padding: 12px;
+    }
+    /* End Jumbotron Responsive */
+}
